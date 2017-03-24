@@ -24,6 +24,8 @@
 
   document.addEventListener 'turbolinks:load', ->
 
+    console.log('fooooooobar')
+
     controller = args.controller
     actions    = args.actions
 
